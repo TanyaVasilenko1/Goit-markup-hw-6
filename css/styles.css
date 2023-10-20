@@ -967,6 +967,16 @@ gap:72px 24px;
 
               
 }
+.menu-open-btn{
+    display: none;
+}
+.header-list{
+    display: flex;
+}
+
+.address-item{
+    display: flex;
+}
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
@@ -1019,5 +1029,9 @@ gap:72px 24px;
         .footer-form-btn{
             position: absolute;
             right: 10px;
+        }
+        .address-item{
+            display: flex;
+            gap:40px;
         }
 }
