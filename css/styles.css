@@ -123,6 +123,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .address{
     font-style: normal;
     margin-left: auto;
+    margin-right: 0;
     
 }
 .address-item{
@@ -139,7 +140,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link::after{
@@ -975,7 +975,7 @@ gap:72px 24px;
 }
 
 .address-item{
-    display: flex;
+    display: block;
 }
 @media screen and (min-width: 1158px) {
     .container {
@@ -1033,5 +1033,11 @@ gap:72px 24px;
         .address-item{
             display: flex;
             gap:40px;
+        }
+        .address-link{
+            font-size: 16px;
+        }
+        .address-list:not(:last-child){
+            margin-bottom: 0px;
         }
 }
