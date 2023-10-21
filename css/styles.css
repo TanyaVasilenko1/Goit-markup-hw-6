@@ -30,7 +30,7 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
+    padding: 0 16px;
     margin: 0 auto;
 }
 
@@ -302,7 +302,7 @@ img {
 }
 
 .section-soft {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .visually-hidden {
@@ -460,8 +460,8 @@ img {
 }
 
 .section-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .section-heder-portfolio {
@@ -566,7 +566,6 @@ img {
 
     display: flex;
     flex-direction: column;
-    gap: 72px;
 
 }
 
@@ -631,11 +630,7 @@ img {
     height: 40px;
 }
 
-.container-footer-media {
-    display: flex;
 
-    flex-direction: column;
-}
 
 .footer-media-link {
     width: 100%;
@@ -666,7 +661,6 @@ img {
 .footer-form {
     display: flex;
     flex-direction: column;
-    height: 40px;
 }
 
 .footer-form-lable {
@@ -975,7 +969,7 @@ input::placeholder {
 
 @media screen and (min-width: 320px) {
     .container {
-        max-width: 288px;
+        max-width: 320px;
     }
 }
 
@@ -993,17 +987,20 @@ input::placeholder {
     .section-heder {
         font-size: 56px;
         max-width: 496px;
+        margin-bottom: 36px;
     }
 
     .header-menu-soft {
         flex-direction: row;
         gap: 72px 24px;
-        flex-wrap: wrap;
     }
 
     .header-navigation {
         display: flex;
         align-items: center;
+    }
+    .header-logo{
+        margin-right: 120px;
     }
 
     .section-drei-list {
@@ -1031,11 +1028,8 @@ input::placeholder {
     }
 
     .main-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin: 0 auto;
-        padding: 112px 0px 112px 0px;
+        
     }
 
     .footer-form {
@@ -1053,7 +1047,6 @@ input::placeholder {
     .container-over-footer {
         flex-wrap: wrap;
         flex-direction: row;
-        gap: 72px 24px;
 
 
     }
@@ -1096,6 +1089,7 @@ input::placeholder {
     }
 }
 
+
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
@@ -1114,9 +1108,25 @@ input::placeholder {
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img/img-name.jpg);
     }
+    .section-title{
+        font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.2;
+                letter-spacing: 0.4px;
+    }
+    .section-text{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+    }
 
     .icons-svg {
         display: flex;
+    }
+    .section-team{
+        flex-direction: row;
     }
 
     .section-drei-list {
@@ -1140,6 +1150,13 @@ input::placeholder {
         max-width: 360px;
         max-height: 420px;
     }
+    .section-soft{
+        padding: 120px 0;
+    }
+    .section-portfolio{
+        padding-top: 120px;
+            padding-bottom: 120px;
+    }
 
     .container-footer {
         margin-right: 50px;
@@ -1152,7 +1169,7 @@ input::placeholder {
 
     .container-footer-media {
         margin-right: 80px;
-        align-items: baseline;
+       
     }
 
     .subscribe-container {
